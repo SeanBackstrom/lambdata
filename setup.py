@@ -8,8 +8,8 @@ REQUIRED = [
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 setuptools.setup(
-    name="lambdata_seancode",
-    version="0.3.2",
+    name="lambdataseancode",
+    version="0.3.4",
     author="Sean Backstrom",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
