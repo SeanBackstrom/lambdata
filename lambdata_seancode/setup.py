@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
 setuptools.setup(
     name="lambdata_seancode",
-    version="0.3.1",
+    version="0.3.2",
     author="Sean Backstrom",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
@@ -20,7 +20,7 @@ setuptools.setup(
     install_requires=REQUIRED,
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Licgit ense :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
 )
