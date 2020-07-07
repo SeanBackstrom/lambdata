@@ -20,7 +20,7 @@ setuptools.setup(
     install_requires=REQUIRED,
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "Licgit ense :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
 )
