@@ -27,16 +27,6 @@ def listocol(list_, df):
     df = df.assign(listocol= list_)
     return df
 
-#Creates a song class to instantiate song objects
-class Song:
-    def __init__(self, tempo, genre):
-        self.tempo = tempo
-        self.genre = genre
-
-    #Song method for user to print stats
-    def songstats(self):
-        print("The song tempo is ", self.tempo,
-        "and the genre is ", self.genre)
 
 #Create test dataframe to check working package
 TEST = pd.DataFrame(np.ones(10))
